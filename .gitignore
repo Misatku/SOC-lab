@@ -1,0 +1,42 @@
+# Environment & secrets
+.env
+.env.*
+*.env
+
+# Logs
+*.log
+*.pid
+
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+
+# Node (if any)
+node_modules/
+
+# Docker / runtime data
+**/data/
+**/logs/
+**/log/
+**/tmp/
+**/uploads/
+**/certs/
+**/secrets/
+
+# TheHive / Cortex / Elastic / Cassandra
+docker/**/cassandra/
+docker/**/elasticsearch/
+docker/**/thehive/files/
+docker/**/cortex/cortex-jobs/
+
+# MISP runtime data
+misp-docker/**/mysql/
+misp-docker/**/redis/
+misp-docker/**/ssl/
+
+# Git leftovers
+**/.git
