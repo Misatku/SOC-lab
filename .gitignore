@@ -40,3 +40,13 @@ misp-docker/**/ssl/
 
 # Git leftovers
 **/.git
+
+# Podman/Docker volume descriptors
+*.volume
+
+# Real env files only
+.env
+.env.*
+!.env.example
+!.env.template
+!dot.env.template
