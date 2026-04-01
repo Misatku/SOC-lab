@@ -1,0 +1,8 @@
+{
+  "severity": "MEDIUM",
+  "recommended_action": "Continue investigation and correlate with additional evidence",
+  "rationale": [
+    "VirusTotal detections greater than zero (1)",
+    "AbuseIPDB score indicates moderate suspicion (30)"
+  ]
+}

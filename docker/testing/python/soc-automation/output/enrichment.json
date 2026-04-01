@@ -1,0 +1,20 @@
+{
+  "input": {
+    "ip": "185.199.110.153",
+    "domain": "login-security-check.com",
+    "url": null
+  },
+  "virustotal": {
+    "ip_detections": 1,
+    "domain_detections": 0
+  },
+  "abuseipdb": {
+    "score": 30,
+    "reports": 5
+  },
+  "ipinfo": {
+    "country": "US",
+    "org": "GitHub, Inc."
+  },
+  "timestamp": "2026-04-01T20:16:05.379036+00:00"
+}
