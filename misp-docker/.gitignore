@@ -12,3 +12,27 @@ docker-compose.override.yml
 .DS_Store
 .AppleDouble
 .LSOverride
+# Python
+**/venv/
+**/__pycache__/
+**/*.pyc
+
+# Environment files
+.env
+.env.*
+
+# Logs
+*.log
+
+# Runtime / temp
+tmp/
+temp/
+.cache/
+
+# GnuPG runtime artifacts
+**/gnupg/S.gpg-agent*
+**/gnupg/*.lock
+
+# Docker runtime data
+data/
+volumes/
